@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Rich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkW-Fw-gqR">
+                                <rect key="frame" x="116.33333333333333" y="145" width="160.33333333333337" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="chh-5T-xd4">
+                                <rect key="frame" x="0.0" y="245.66666666666663" width="393" height="361"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="361" id="egp-HI-kjM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="gkW-Fw-gqR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1SD-EB-2T8"/>
+                            <constraint firstItem="chh-5T-xd4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1gL-rm-chK"/>
+                            <constraint firstItem="chh-5T-xd4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FLz-Xc-PDG"/>
+                            <constraint firstItem="chh-5T-xd4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PNM-vy-fVL"/>
+                            <constraint firstItem="gkW-Fw-gqR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="XDS-VJ-4Jc"/>
+                            <constraint firstItem="chh-5T-xd4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Yi9-Dd-qnB"/>
+                            <constraint firstItem="chh-5T-xd4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zzi-kR-CC5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.58015267175573" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="diamond" width="1574.6666259765625" height="1181"/>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
